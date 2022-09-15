@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.button{
+  border: 1px solid rgb(33, 157, 206);
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: rgb(34, 213, 236);
+  color: rgb(238, 51, 4);
+  font-weight: 700;
+  opacity: 0.8;
+}
