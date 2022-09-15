@@ -13,15 +13,15 @@ sete.addEventListener("click", () => {
 
 oito.addEventListener("click", () => {
   input.value = "8";
-  x = 8;
+  y = 8;
 });
 
 mais.addEventListener("click", () => {
-  soma (x, 1);
+  soma (x, y);
 });
 
 function soma (x, y) {
   sum = x + y;
-  input.value = soma;
+  input.value = sum;
 }
 
