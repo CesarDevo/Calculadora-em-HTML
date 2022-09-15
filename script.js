@@ -17,7 +17,7 @@ oito.addEventListener("click", () => {
 });
 
 mais.addEventListener("click", () => {
-  soma (x, y);
+  soma (x,y);
 });
 
 function soma (x, y) {
